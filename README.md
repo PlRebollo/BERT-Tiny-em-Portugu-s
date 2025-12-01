@@ -6,10 +6,10 @@ Este repositório apresenta o processo completo de adaptação do modelo BERT-ti
 O repositório inclui:
 - [destilacao_parcial.ipynb](https://colab.research.google.com/drive/1Vxpov542eqtSRSYubkAmuhDfj9Yz5CRO?usp=sharing) – destilação mantendo o vocabulário original do aluno.
 - [destilacao_total.ipynb](https://colab.research.google.com/drive/1QsMtRQtvYV0b8XWA2gPhjIqNwSBBP_lB?usp=sharing) – destilação reconstruindo completamente o aluno com o vocabulário do professor.
-- Relatório com metodologia, experimentos e conclusões.
+- [Avaliação.ipynb](https://colab.research.google.com/drive/1-bZ-b16iVZrlwtBa1dDe0EaV21PUf1v_?usp=sharing) – Avaliação dos modelos
+- [Relatório](https://docs.google.com/document/d/1evYpVOaEDlnyuDPe_qAgJvWCsNGFhwG6gadvr1rdkUI/edit?usp=sharing) - Relatório com metodologia, experimentos e conclusões.
 
 ---
-
 ## 1. Introdução
 
 Modelos de linguagem de grande porte apresentam excelente desempenho, mas possuem alto custo computacional. A destilação de conhecimento oferece uma alternativa eficiente, permitindo transferir capacidades de um modelo grande (teacher) para um modelo pequeno (student), mais rápido e adequado a ambientes restritos.
