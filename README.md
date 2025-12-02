@@ -74,21 +74,21 @@ Ambas as metodologias foram avaliadas em tarefas intrínsecas (MLM) e extrínsec
 
 | Tarefa | Tiny Original | Tiny-PT (Parcial) | BERTimbau |
 |--------|--------------|--------------------|-----------|
-| MLM Loss | 5.7462 | 1.9433 | 1.7569 |
+| MLM Loss | 5.7138 | 2.1547 | 1.7577 |
 | STS (Pearson) | 0.5262 | 0.5763 | 0.6139 |
-| Sentiment (F1) | 0.1905 | 0.2121 | 0.2778 |
-| RTE (F1) | 0.2183 | 0.4059 | 0.1983 |
+| Sentiment (F1) | 0.3583 | 0.1905 | 0.2902 |
+| RTE (F1) | 0.6675 | 0.6334 | 0.9360 |
 
-A abordagem parcial apresentou melhor desempenho geral. O modelo retém parte da semântica aprendida no inglês e demonstrou forte desempenho em inferência lógica, superando inclusive o professor em RTE.
+A abordagem parcial apresentou melhor desempenho geral. O modelo retém parte da semântica aprendida no inglês e demonstrou forte desempenho em inferência lógica, mantendo-se competitivo em RTE.
 
 ### 4.2 Resultados da Destilação Total
 
 | Tarefa | Tiny Original | Tiny-PT (Total) | BERTimbau |
 |--------|--------------|------------------|-----------|
-| MLM Loss | 5.7462 | 3.3025 | 1.7569 |
+| MLM Loss | 5.7138 | 3.9650 | 1.7577 |
 | STS (Pearson) | 0.5262 | 0.4400 | 0.6139 |
-| Sentiment (F1) | 0.3583 | 0.2000 | 0.1667 |
-| RTE (F1) | 0.2183 | 0.2225 | 0.1983 |
+| Sentiment (F1) | 0.3583 | 0.0833 | 0.2902 |
+| RTE (F1) | 0.6675 | 0.6036 | 0.9360 |
 
 A destilação total produziu um modelo mais alinhado ao português, mas com semântica global mais fraca, reflexo da reconstrução completa do vocabulário.
 
